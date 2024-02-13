@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 
-
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -27,4 +25,18 @@
 body{
   background-color: #FDF9F9;
   font-family: doran-mid;
+}
+.fonts{
+  font-family: doran-mid !important;
+}
+.porduct-btn{
+  background: rgba(236, 228, 218, 1);
+  border-radius: 15px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.porduct-btn:hover{
+  background: rgb(212, 210, 208);
+  
 }

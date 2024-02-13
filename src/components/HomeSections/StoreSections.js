@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 const StoreSections = () => {
     return (
-        <div className='container flex flex-col justify-center w-full pt-4'>
+        <div className='container flex flex-col justify-center w-full pt-4 fonts'>
             <div className='flex items-center justify-center'>
                 <div className='relative flex-1 w-60 h-60' style={{ 
                 backgroundImage: `url(${imgstow.src})`,
@@ -54,8 +54,9 @@ const StoreSections = () => {
                 <div className='relative flex-1 w-60 h-60' style={{ 
                 backgroundImage: `url(${imgseight.src})`,
                 backgroundPosition: "center",
-                backgroundSize: "containe",
-                backgroundRepeat: "no-repeat",}}>
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundOrigin: "content-box",}}>
                     <Image className='absolute top-10 ' width={100} height={100} src={imgssiven} alt="imgssiven" />
                     <div className='pt-20 pr-24 font-bold text-right text-1xl'>
                     Free shipping
@@ -70,7 +71,6 @@ const StoreSections = () => {
                     <span className='text-center '></span>
                 </div>
                 <p className='w-4/5 text-center text-wrap'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, <br/> pulvinar dapibus leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet</p>
-            
                 <Image className="absolute top-26 right-4" width={200} height={200} src={frameImg} alt="frameImg" />
             </div>
         </div>
