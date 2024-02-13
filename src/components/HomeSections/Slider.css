@@ -1,0 +1,10 @@
+.shop-btn{
+    background: rgba(236, 228, 218, 1);
+}
+.shop-btn:hover{
+    font-weight: 400;
+    background: rgb(199, 189, 176);
+}
+.read-btn:hover{
+    background-color: rgb(199, 189, 176);
+}

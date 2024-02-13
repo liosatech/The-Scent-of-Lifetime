@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: doran-Bold;
+  src: url(./assets/fonts/Doran-Bold.ttf);
+}
+@font-face {
+  font-family: doran-mid;
+  src: url(./assets/fonts/Doran-Medium.ttf);
+}
+@font-face {
+  font-family: doran-sm;
+  src: url(./assets/fonts/Doran-Thin.ttf);
+}
+
+body{
+  background-color: #FDF9F9;
+  font-family: doran-mid;
+}
