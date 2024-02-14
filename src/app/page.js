@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from '@/components/HomeSections/Slider';
 import StoreSections from '@/components/HomeSections/StoreSections';
 import SpecialProduct from '@/components/HomeSections/SpecialProduct';
+import AboutUs from '@/components/HomeSections/AboutUs';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Slider />
       <StoreSections  className="container"/>
       <SpecialProduct />
+      <AboutUs />
     </div>
   );
 };
