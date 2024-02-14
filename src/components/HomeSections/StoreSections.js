@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 const StoreSections = () => {
     return (
-        <div className='container flex flex-col justify-center w-full pt-4 fonts'>
+        <div className='container flex flex-col justify-center w-full pt-4 overflow-hidden fonts'>
             <div className='flex items-center justify-center'>
                 <div className='relative flex-1 w-60 h-60' style={{ 
                 backgroundImage: `url(${imgstow.src})`,
