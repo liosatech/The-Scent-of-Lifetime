@@ -25,35 +25,35 @@ const SpecialProduct = () => {
     ]
 
     return (
-        <div className='flex flex-col items-center justify-center overflow-hidden mt-14'>
+        <div className='flex flex-col flex-wrap items-center justify-center overflow-hidden mt-14'>
             <h3 className='text-4xl font-bold '>Special Product</h3>
             <button className='mt-3 porduct-btn' type="#">More Product</button>
             <div className='flex items-center w-full h-full justify-evenly'>
-                <div className='flex flex-col items-center justify-center flex-1 w-52 h-96' style={{ 
+                <div className='flex flex-col items-center justify-center flex-1 h-64 w-44' style={{ 
                 backgroundImage:  `url(${backslideImgtree.src})`,
                 backgroundPosition: "center",
-                backgroundSize: "containe",
+                backgroundSize: "65% ",
                 backgroundRepeat: "no-repeat",
              }}>
-                    <Image className='mt-8' src={slider[2].URl}  width={220}/>
+                    <Image className='w-32 mt-8 md:w-40' src={slider[2].URl}  />
                     <h4>Victoria`s Secret Bombshell</h4>
                     <span className=''>$100,000</span>
                 </div>
-                <div  className='flex flex-col items-center justify-center flex-1 w-52 h-96' style={{
+                <div  className='flex-col items-center justify-center flex-1 hidden sm:flex w-52 h-96 ' style={{
                     backgroundImage:  `url(${backslideImgtree.src})` ,
                     backgroundPosition: "center",
-                    backgroundSize: "containe",
+                    backgroundSize: "65% ",
                     backgroundRepeat: "no-repeat", }}>
-                    <Image className='mt-8' src={slider[2].URl} width={220}/>
+                    <Image className='w-32 mt-8 md:w-40' src={slider[2].URl} />
                     <h4>FlowerBomb Victoria</h4>
                     <span className=''>$80,000</span>
                 </div>
-                <div  className='flex flex-col items-center justify-center flex-1 w-52 h-96' style={{ 
+                <div  className='flex-col items-center justify-center flex-1 hidden w-48 sm:flex h-96' style={{ 
                     backgroundImage:  `url(${backslideImgtree.src})`,
                     backgroundPosition: "center",
-                    backgroundSize: "containe",
+                    backgroundSize: "65% ",
                     backgroundRepeat: "no-repeat", }}>
-                    <Image className='mt-8' src={slider[2].URl} width={220}/>
+                    <Image className='w-32 mt-8 md:w-40' src={slider[2].URl} />
                     <h4>Lavida es Bella</h4>
                     <span className=''>$120,000</span>
                 </div>
