@@ -5,9 +5,9 @@ import LogoImg from '../../app/assets/img/سلین 1.png';
 
 const Header = () => {
     return (
-        <div className='right-0 z-50 flex items-start justify-between w-full px-3 top-1'>
+        <div className='fixed right-0 z-50 flex items-start justify-between w-full px-3  top-1'>
             <div className='grow'>
-                <Image className='w-64 h-60' src={LogoImg} alt="Logo"/>
+                <Image className='hidden w-64 h-60 sm:block' src={LogoImg} alt="Logo"/>
             </div>
             <div dir="rtl" className='flex flex-col items-start justify-end flex-none pt-3 pr-4 grow'>
                <Menu />

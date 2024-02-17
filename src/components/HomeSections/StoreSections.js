@@ -14,7 +14,7 @@ import Image from 'next/image';
 const StoreSections = () => {
     return (
         <div className='container flex flex-col justify-center w-full pt-4 pb-0 overflow-hidden fonts sm:pb-20'>
-            <div className='grid items-center justify-center grid-cols-1 gap-2 sm:gird-cols-2 md:grid-cols-4'>
+            <div className='grid items-center justify-center grid-cols-1 gap-2 mx-auto  sm:gird-cols-2 md:grid-cols-4'>
                 <div className='relative flex-1 ml-20 sm:ml-0 w-60 h-60' style={{ 
                 backgroundImage: `url(${imgstow.src})`,
                 backgroundPosition: "center",
