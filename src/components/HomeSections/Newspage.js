@@ -6,6 +6,7 @@ import newsimagTow from '../../app/assets/img/NewsImg/close-up-photo-fragrance-b
 import newsimagTree from '../../app/assets/img/NewsImg/high-angle-elegant-bottle-perfume-tray-valentine-s-day 1.png';
 import newsBack from '../../app/assets/img/NewsImg/Vector (5).png';
 import {RxDotFilled} from 'react-icons/rx';
+import { FaRegCalendarDays } from "react-icons/fa6";
 
 const Newspage = () => {
 
@@ -52,7 +53,7 @@ const Newspage = () => {
                         <Image className='w-80' src={newsBack} />
                         <Image className='absolute w-64 ease-in delay-400 top-10 right-3' src={image.URL} />
                         <h4 className='absolute text-lg font-bold top-56 left-16'>Thierry Mugler Angel</h4>
-                        <span className='absolute text-base top-64 left-16'>date: </span>
+                        <span className='absolute flex justify-center w-2/4 text-base top-64 left-16'> <FaRegCalendarDays className='text-2xl '/></span>
                         <span className='absolute text-base top-72 left-14'>Tuesday, February 21, 2023</span>
                     </div>
                 ))}
