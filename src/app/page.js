@@ -3,7 +3,7 @@ import Slider from '@/components/HomeSections/Slider';
 import StoreSections from '@/components/HomeSections/StoreSections';
 import SpecialProduct from '@/components/HomeSections/SpecialProduct';
 import AboutUs from '@/components/HomeSections/AboutUs';
-import Trands from '@/components/HomeSections/trands';
+// import Trands from '@/components/HomeSections/trands';
 import Newspage from '@/components/HomeSections/Newspage';
 
 

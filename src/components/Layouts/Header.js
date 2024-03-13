@@ -26,9 +26,9 @@ const Header = () => {
 
 
     return (
-        <div className={`fixed right-0 z-50 flex items-start justify-between w-full transition delay-400 ease-out px-3 top-0 ${isScrolledDown ? 'bg-pink-50' : ''}`}>
+        <div className={` right-0 z-50 flex items-start justify-between w-full transition delay-400 ease-out px-3 top-0 ${isScrolledDown ? 'bg-pink-50' : ''}`}>
             <div className={`grow ${isScrolledDown ? 'w-40' : ''}`}>
-                <Image className={`hidden w-64 h-60  sm:block ${isScrolledDown ? 'w-28 h-20' : ''}`}  src={LogoImg} alt="Logo"/>
+                <Image className={`hidden w-64 h-60  sm:block ${isScrolledDown ? 'w-24 h-20' : ''}`}  src={LogoImg} alt="Logo"/>
             </div>
             <div dir="rtl" className='flex flex-col items-start justify-end flex-none pt-3 pr-4 grow'>
                <Menu />
