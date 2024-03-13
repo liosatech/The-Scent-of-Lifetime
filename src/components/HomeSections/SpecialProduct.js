@@ -15,7 +15,6 @@ import { FaShoppingBag } from "react-icons/fa";
 import Image from 'next/image';
 
 const SpecialProduct = () => {
-    
 
     const slider =[
         {
@@ -39,7 +38,6 @@ const SpecialProduct = () => {
     ]
 
     const backImgsild =[backslideImg, backslideImgtwo,backslideImgthree ]
-    
     const [currentPage, setCurrentPage] = useState(0);
 
     const goToSlide = (pageIndex) => {
@@ -65,11 +63,10 @@ const SpecialProduct = () => {
                     }}>
                         <Image className='w-32 mt-8 md:w-40' src={image.URL} />
                         <h4>{index === 0 ? "Victoria's Secret Bombshell" : index === 1 ? "FlowerBomb Victoria" : "Lavida es Bella"}</h4>
-                        <span className='inline mt-2'>$ {index === 0 ? "100,000" : index === 1 ? "80,000" : "120,000"} <FaShoppingBag className='inline mb-2 text-2xl' /></span>
+                        <span className='inline mt-2'>$ {index === 0 ? "100,000" : index === 1 ? "80,000" : "120,000"} <FaShoppingBag className='inline mb-2 text-2xl'/></span>
                     </div>
                 ))}
             </div>
-            
             <div className='flex items-center justify-center'>
                 {[...Array(totalPages).keys()].map((pageIndex) => (
                     <div className="text-6xl cursor-pointer panglar-color" key={pageIndex} onClick={() => goToSlide(pageIndex)}>

@@ -16,4 +16,4 @@ const Trands = () => {
     );
 };
 
-export default Trands; 
+export default Trands;

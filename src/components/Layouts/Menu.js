@@ -10,8 +10,8 @@ const Menu = () => {
                     <li><Link className='mx-10 text-slate-800 hover:text-slate-400 hover:font-bold' href="./ContactUs">ContactUs</Link></li>
                     <li><Link className='ml-10 text-slate-800 hover:text-slate-400 hover:font-bold' href="./Blog">Blog</Link></li>
                     <li><Link className='text-slate-800 hover:text-slate-400 hover:font-bold' href="./">Home</Link></li>
-                </ul>  
-            </nav>    
+                </ul>
+            </nav>
         </section>
     );
 };

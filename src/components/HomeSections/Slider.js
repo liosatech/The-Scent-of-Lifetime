@@ -30,7 +30,6 @@ const Slider = () => {
         console.log(Curentslide);
     }
 
-    
     // const goTosilde =(slidersIndex) =>{
     //     setCurentslide(slidersIndex);
     // }

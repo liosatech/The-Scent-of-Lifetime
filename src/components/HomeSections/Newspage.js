@@ -20,10 +20,10 @@ const Newspage = () => {
         {
             URL: newsimagTree
         },
-        {   
+        {
             URL: newsimagTow
         },
-        {   
+        {
             URL: newsimagTree
         },
         {
@@ -58,7 +58,7 @@ const Newspage = () => {
                     </div>
                 ))}
             </div>
-        </div>     
+        </div>
         <div className='flex items-center justify-center '>
             {[...Array(totalPages).keys()].map((slidersIndex) => (
                 <div className="text-6xl cursor-pointer panglar-color" key={slidersIndex} onClick={() => goTosilde(slidersIndex)}>

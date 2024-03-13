@@ -7,7 +7,7 @@ import LogoImg from '../../app/assets/img/سلین 1.png';
 import { FaCartShopping } from "react-icons/fa6";
 import { IoSearchOutline } from "react-icons/io5";
 
-    
+
 const Header = () => {
     const [isScrolledDown, setIsScrolledDown] = useState(false);
 
@@ -18,7 +18,6 @@ const Header = () => {
         };
 
         window.addEventListener('scroll', handleScroll);
-        
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
@@ -31,21 +30,21 @@ const Header = () => {
                 <Image className={`hidden w-64 h-60  sm:block ${isScrolledDown ? 'w-24 h-20' : ''}`}  src={LogoImg} alt="Logo"/>
             </div>
             <div dir="rtl" className='flex flex-col items-start justify-end flex-none pt-3 pr-4 grow'>
-               <Menu />
-               <div className='flex justify-end flex-none mt-3'>
-                 <div className='flex items-center justify-center flex-1'>
-                    <p className='ml-4'>0.00</p>
-                    <div  className='ml-4'>
-                        <FaCartShopping />
+                <Menu />
+                <div className='flex justify-end flex-none mt-3'>
+                    <div className='flex items-center justify-center flex-1'>
+                        <p className='ml-4'>0.00</p>
+                        <div  className='ml-4'>
+                            <FaCartShopping />
+                        </div>
                     </div>
-                 </div>
-                 <div className='flex items-center justify-center'>
-                    <p className='ml-4'>Search</p>
-                    <div className='ml-4'>
-                        <IoSearchOutline />
+                    <div className='flex items-center justify-center'>
+                        <p className='ml-4'>Search</p>
+                        <div className='ml-4'>
+                            <IoSearchOutline />
+                        </div>
                     </div>
-                 </div>
-               </div>
+                </div>
             </div>
         </div>
     );

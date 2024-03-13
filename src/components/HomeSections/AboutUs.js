@@ -11,7 +11,7 @@ const AboutUs = () => {
             <div className='container '>
                 <div className='flex justify-start mt-5'>
                     <div className='flex-1 justify-self-end'>
-                    <Image className='ml-2 sm:ml-20' width={330} height={330} src={ faceimg }/>  
+                    <Image className='ml-2 sm:ml-20' width={330} height={330} src={ faceimg }/>
                     </div>
                     <div className='self-start flex-1 w-20 text-2xl text-left sm:self-center md:text-3xl lg:text-4xl'>
                         <h3>You are <span className='text-3xl font-bold md:text-4xl lg:text-5xl'>unique</span></h3>
@@ -27,7 +27,7 @@ const AboutUs = () => {
                             <button className='w-64 mt-5 text-base justify-self-start porduct-btn'>See Unique Fragrance</button>
                         </div>
                         <div className='relative w-full '>
-                           <Image className='absolute -bottom-20 max-w-none -right-50 w-96' src={handImage}/>
+                            <Image className='absolute -bottom-20 max-w-none -right-50 w-96' src={handImage}/>
                         </div>
                     </div>
                 </div>

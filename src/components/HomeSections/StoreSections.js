@@ -7,7 +7,7 @@ import imgsfive from '../../app/assets/img/store-img/Store-tree.png';
 import imgssix from '../../app/assets/img/store-img/store-tree-b.png';
 import imgssiven from '../../app/assets/img/store-img/store-four.png';
 import imgseight from '../../app/assets/img/store-img/store-four-b.png';
-import frameImg from '../../app/assets/img/Frame.png'
+import frameImg from '../../app/assets/img/Frame.png';
 
 import Image from 'next/image';
 
@@ -15,7 +15,7 @@ const StoreSections = () => {
     return (
         <div className='container flex flex-col justify-center w-full pt-4 pb-0 overflow-hidden fonts sm:pb-20'>
             <div className='grid items-center justify-center grid-cols-1 gap-2 mx-auto  sm:gird-cols-2 md:grid-cols-4'>
-                <div className='relative flex-1 ml-20 sm:ml-0 w-60 h-60' style={{ 
+                <div className='relative flex-1 ml-20 sm:ml-0 w-60 h-60' style={{
                 backgroundImage: `url(${imgstow.src})`,
                 backgroundPosition: "center",
                 backgroundSize: "containe",
@@ -23,11 +23,11 @@ const StoreSections = () => {
                     <Image className='absolute z-10 w-16 md:w-20 top-10 left-2' src={imgsone} alt="imgsone" />
                     <div className='z-30 pt-20 pr-12 font-bold text-right text-1xl'>
                     Money
-                    <br /> 
+                    <br />
                     back guarantee
                     </div>
                 </div>
-                <div className='relative flex-1 w-64 ml-20 h-60 sm:ml-0' style={{ 
+                <div className='relative flex-1 w-64 ml-20 h-60 sm:ml-0' style={{
                 backgroundImage: `url(${imgsfour.src})`,
                 backgroundPosition: "center",
                 backgroundSize: "containe",
@@ -35,11 +35,11 @@ const StoreSections = () => {
                     <Image className='absolute w-14 md:w-16 top-10' src={imgstree} alt="imgstree" />
                     <div className='pt-20 pr-12 font-bold text-right text-1xl'>
                     Delivery
-                    <br />  
+                    <br />
                     in 1–2 Hours
                     </div>
                 </div>
-                <div className='relative flex-1 w-64 ml-20 h-60 sm:ml-0' style={{ 
+                <div className='relative flex-1 w-64 ml-20 h-60 sm:ml-0' style={{
                 backgroundImage: `url(${imgssix.src})`,
                 backgroundPosition: "center",
                 backgroundSize: "containe",
@@ -47,11 +47,11 @@ const StoreSections = () => {
                     <Image className='absolute w-14 top-10 md:w-16'  src={imgsfive} alt="imgsfive" />
                     <div className='pt-20 pr-12 font-bold text-right text-1xl'>
                     Gift-wrap
-                    <br /> 
+                    <br />
                     ped Packaging
                     </div>
                 </div>
-                <div className='relative flex-1 ml-20 w-60 h-60 sm:ml-0' style={{ 
+                <div className='relative flex-1 ml-20 w-60 h-60 sm:ml-0' style={{
                 backgroundImage: `url(${imgseight.src})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
@@ -60,7 +60,7 @@ const StoreSections = () => {
                     <Image className='absolute w-14 left-5 top-10 md:w-16' src={imgssiven} alt="imgssiven" />
                     <div className='pt-20 font-bold text-right pr-22 text-1xl'>
                     Free shipping
-                    <br /> 
+                    <br />
                     Worldwide
                     </div>
                 </div>

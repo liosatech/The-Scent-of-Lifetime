@@ -25,7 +25,7 @@ const Footer = () => {
                             <MdEmail  className='text-2xl '/>
                             </div>
                             <h3 className='text-s md:text-xl'>info@sample.com</h3>
-                        </div>    
+                        </div>
                     </div>
                     <div className='flex flex-col items-start justify-start flex-1 my-10 ps-4 md:ps-44 md:my-0'>
                         <Link className='text-sm text-black md:text-2xl text-start hover:text-slate-400 hover:font-bold' href="./News">News</Link>
@@ -41,8 +41,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex justify-between mt-20 mb-5'>
-                     <h5 className='text-xs '>Copyright © 2023 SL Online Perfume Shop</h5>
-                     <h5 className='text-xs '>Design by Liosatech</h5>
+                    <h5 className='text-xs '>Copyright © 2023 SL Online Perfume Shop</h5>
+                    <h5 className='text-xs '>Design by Liosatech</h5>
                 </div>
             </div>
         </div>
